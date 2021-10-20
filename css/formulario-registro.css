@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
-    background-color: #173A4F;
+    background-color: #B6D5FD;
     color: #fafafa;
 }
 
@@ -19,8 +19,14 @@ body{
     margin-top: 50px;
     width: 70%;
     transition: all ease .4s;
+    color: #34547D;
 }
-
+.archivo{
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    
+}
 #formulario-contenedor.active{
     margin-top: 264px;
 
@@ -34,7 +40,9 @@ body{
     margin-bottom: 10px;
     border: none;
     outline: none;
-    border-radius: 7px;
+    
+    background: transparent;
+    border-bottom: 1px #78788c solid;
 }
 
 #guardar{
@@ -44,13 +52,9 @@ body{
     background-color: #4AF655;
 }
 
-#documento{
-    border: none;
-    outline: none;
-    border-radius: 7px;
-    background-color: #868686;
+#registro{
+    background: #fafafa;
 }
 
-#botones{
-    justify-content: space-between;
-}
+
+
