@@ -1,5 +1,5 @@
 <?php
-include ('./inc/header.php');
+require ('./inc/header.php');
 include './inc/historiaRegistro.php';
 
 ?>
@@ -15,5 +15,6 @@ include './inc/historiaRegistro.php';
 </head>
 <body>
     <script src="./bootstrap-js/bootstrap.bundle.min.js"></script>
+    <script src="./js/empujar.js"></script>
 </body>
 </html>

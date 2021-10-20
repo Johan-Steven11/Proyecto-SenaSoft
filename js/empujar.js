@@ -4,7 +4,7 @@ const empujar = ()=>{
     const formulario = document.getElementById("formulario-contenedor");
 
     boton.addEventListener("click", ()=>{
-        formulario.classList.toggle("active");
+        formulario.classList.toggle('active');
     })
 }
 empujar();
