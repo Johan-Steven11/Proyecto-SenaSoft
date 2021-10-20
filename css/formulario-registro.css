@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+    background-color: #173A4F;
     color: #fafafa;
 }
 
@@ -9,8 +10,16 @@ body{
     
 }
 
+
+
 #formulario-contenedor{
+    margin-top: 50px;
     width: 70%;
+}
+
+#formulario-contenedor.active{
+    margin-top: 264px;
+
 }
 
 #cuadros-contenedor{

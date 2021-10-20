@@ -4,9 +4,15 @@ body{
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
+   
 
 }
-nav{
-    background: FFFFFF;
-    
+
+.justify-content-end{
+    background: white;
+    transition: 3s;
+}
+.justify-content-end:hover{
+    height: 50px;
+    transition: 10s;
 }
