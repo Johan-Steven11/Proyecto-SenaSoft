@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <label for=""></label>
-    </form>
+    <section>
+       <input type="text">
+    </section>
 </body>
 </html>
