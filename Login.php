@@ -10,9 +10,7 @@
 </head>
 
 <body>
-    <form action="" method="">
-       
-    </form>
+    
 </body>
 
 </html>
