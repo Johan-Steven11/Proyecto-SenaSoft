@@ -85,6 +85,6 @@ span {
     margin: 0 5px 0 15px
 }
 
-footer div {
-    justify-items: center;
+footer  {
+    justify-items: end;
 }

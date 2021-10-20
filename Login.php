@@ -22,12 +22,6 @@ include './inc/inicio.php';
         <button>Iniciar Sesion</button>
       </form>
 </body>
-<footer>
-    <div>
-        <span class="fa fa-phone"></span>001 1023 567
-        <span class="fa fa-envelope-o"></span> MH-HISTORY@company.com
-      </div>
-</footer>
 
 
 <!-- <script src="/bootstrap-js/bootstrap.min.js"></script> -->

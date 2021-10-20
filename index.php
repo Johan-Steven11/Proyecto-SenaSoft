@@ -17,15 +17,13 @@ include './inc/inicio.php';
 <body>
 
 
- <main>
-   <section>
-     <div>
-       <img src="" alt="">
-     </div>
-   </section>
- </main>
-
-
+  <main>
+    <section>
+      <div>
+        <img src="" alt="">
+      </div>
+    </section>
+  </main>
 
   <script src="./bootstrap-js/bootstrap.bundle.min.js"></script>
 </body>
