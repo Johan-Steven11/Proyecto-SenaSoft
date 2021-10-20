@@ -1,6 +1,7 @@
 <?php
 include './inc/header.php';
 include './inc/historiaRegistro.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
