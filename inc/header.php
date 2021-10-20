@@ -12,6 +12,9 @@
         <li class="nav-item">
           <a class="nav-link" href="Historias.php">Historias Clinicas</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Historias.php">Actualizar Datos</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
@@ -28,8 +31,6 @@
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button type="button" class="btn btn-outline-dark">Buscar</button>
       </form>
     </div>
   </div>
