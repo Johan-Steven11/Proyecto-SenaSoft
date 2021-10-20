@@ -20,7 +20,7 @@ include './inc/inicio.php';
  <main>
    <section>
      <div>
-       <img src="" alt="">
+       <img src="background-image: url="/img/index.png" alt="">
      </div>
    </section>
  </main>
@@ -28,6 +28,7 @@ include './inc/inicio.php';
 
 
   <script src="./bootstrap-js/bootstrap.bundle.min.js"></script>
-</body>
+  </div>
+
 
 </html>
