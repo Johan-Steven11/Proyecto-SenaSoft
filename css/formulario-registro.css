@@ -10,11 +10,15 @@ body{
     
 }
 
-
+.tamano{
+    font-size: 40px;
+    font-weight: bold;
+}
 
 #formulario-contenedor{
     margin-top: 50px;
     width: 70%;
+    transition: all ease .4s;
 }
 
 #formulario-contenedor.active{
