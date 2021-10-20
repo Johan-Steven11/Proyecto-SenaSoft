@@ -12,7 +12,7 @@
 <body>
     <script>
         Tesseract.recognize(
-            'imagetext.png',
+            '/img/imagetext.png',
             'spa',
             { logger: m => console.log(m) }
         ).then(({ data: { text } }) => {
