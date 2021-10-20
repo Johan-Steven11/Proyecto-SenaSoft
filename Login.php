@@ -8,7 +8,7 @@
 </head>
 <body>
     <section>
-       <input type="text">
+       <input type="email" name="Correo" id="Correo" placeholder="Correo electronico">
     </section>
 </body>
 </html>
