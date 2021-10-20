@@ -17,6 +17,7 @@ include './inc/inicio.php';
 <body>
 
 
+
   <main>
     <section>
       <div>
@@ -25,7 +26,13 @@ include './inc/inicio.php';
     </section>
   </main>
 
+ 
+
+
+
+
   <script src="./bootstrap-js/bootstrap.bundle.min.js"></script>
-</body>
+  </div>
+
 
 </html>
