@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+    color: #fafafa;
+}
+
+#formulario-historia{
+    margin-top: 30px;
+    padding: 10px 0px;
+    
+}
+
+#formulario-contenedor{
+    width: 70%;
+}
+
+#cuadros-contenedor{
+    width: 70%;
+}
+
+.cuadro-texto{
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+#guardar{
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #4AF655;
+}
+
+#documento{
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #868686;
+}
+
+#botones{
+    justify-content: space-between;
+}
