@@ -1,4 +1,6 @@
-
+<?php
+include './inc/inicio.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,21 +15,17 @@
 </head>
 
 <body>
-  <ul class="nav justify-content-end">
-    
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Regsitro</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Login.php">Iniciar secion</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactos</a>
-    </li>
-  </ul>
+
+
+ <main>
+   <section>
+     <div>
+       <img src="" alt="">
+     </div>
+   </section>
+ </main>
+
+
 
   <script src="./bootstrap-js/bootstrap.bundle.min.js"></script>
 </body>

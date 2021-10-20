@@ -1,3 +1,6 @@
+<?php
+include './inc/inicio.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/EstilosLogin.css">
+    <link rel="stylesheet" href="./css/EstilosLoguin.css">
 </head>
 
 <body>
+    
     <form class="form">
         <h2>Login</h2>
         <p type="Cedula:"><input placeholder="Ingrese su Cedula"></input></p>
@@ -24,4 +28,7 @@
         <span class="fa fa-envelope-o"></span> MH-HISTORY@company.com
       </div>
 </footer>
+
+
+<!-- <script src="/bootstrap-js/bootstrap.min.js"></script> -->
 </html>
