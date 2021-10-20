@@ -1,6 +1,3 @@
-<?php
- include("../inc/header.php");
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,14 +12,14 @@
     <!-- importando css -->
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../css/formulario-registro.css">
-    <title>Registro de Documento</title>
+    <title>Registro</title>
 </head>
 
 <body>
     <div class="container" id="formulario-contenedor">
         <legend id="formulario-historia" class="container-fluid bg-primary">
             <form action="" class="form-input" id="registro" method="post">
-                <h2 class="text-center">Ingresa aqui la historia medica</h2>
+                <h2 class="text-center tamano">Ingresa el paciente</h2>
                 <div class="container d-flex flex-column" id="cuadros-contenedor">
                     <label for="id"></label>
                     <input type="hidden" class="cuadro-texto">
