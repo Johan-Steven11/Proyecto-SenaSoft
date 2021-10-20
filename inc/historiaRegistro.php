@@ -1,3 +1,7 @@
+<?php
+ include("../inc/header.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,47 +18,54 @@
     <title>Registro de Documento</title>
 </head>
 
-<body class="container" id="formulario-contenedor">
-    <legend id="formulario-historia" class="container-fluid bg-primary">
-        <form action="" class="form-input" id="registro" method="post">
-            <h2 class="text-center">Ingresa aqui la historia medica</h2>
-            <div class="container d-flex flex-column" id="cuadros-contenedor">
-                <label for="id"></label>
-                <input type="hidden" class="cuadro-texto">
-                <label for="primernombre">Primer Nombre</label>
-                <input type="text" class="cuadro-texto" value="">
-                <label for="segundonombre">Segundo Nombre</label>
-                <input type="text" class="cuadro-texto">
-                <label for="primerapellido">Primer Apellido</label>
-                <input type="text" class="cuadro-texto">
-                <label for="segundoapellido">Segundo Apellido</label>
-                <input type="text" class="cuadro-texto">
-                <label for="edad">Edad</label>
-                <input type="text" class="cuadro-texto">
-                <label for="ocupacion">Ocupacion</label>
-                <input type="text" class="cuadro-texto">
-                <label for="fechanacimiento">Fecha de nacimiento</label>
-                <input type="text" class="cuadro-texto">
-                <label for="estadocivil">Estado Civil</label>
-                <input type="text" class="cuadro-texto">
-                <label for="nacionalidad">Nacionalidad</label>
-                <input type="text" class="cuadro-texto">
-                <label for="residencia">Residencia</label>
-                <input type="text" class="cuadro-texto">
-                <label for="escolaridad">Escolaridad</label>
-                <input type="text" class="cuadro-texto">
-                <label for="escolaridad">Escolaridad</label>
-                <input type="date" class="cuadro-texto">
-                </br>
-                <div class="d-flex" id="botones">
-                    <button type="submit" id="guardar">Guardar Informacion</button>
-                    <button type="button" id="documento">Registrar Documento</button>
-                </div>
+<body>
+    <div class="container" id="formulario-contenedor">
+        <legend id="formulario-historia" class="container-fluid bg-primary">
+            <form action="" class="form-input" id="registro" method="post">
+                <h2 class="text-center">Ingresa aqui la historia medica</h2>
+                <div class="container d-flex flex-column" id="cuadros-contenedor">
+                    <label for="id"></label>
+                    <input type="hidden" class="cuadro-texto">
+                    <label for="cedula">Cedula</label>
+                    <input type="text" class="cuadro-texto" id="cedula" name="cedula">
+                    <label for="primernombre">Primer Nombre</label>
+                    <input type="text" class="cuadro-texto" value="">
+                    <label for="segundonombre">Segundo Nombre</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="primerapellido">Primer Apellido</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="segundoapellido">Segundo Apellido</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="edad">Edad</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="ocupacion">Ocupacion</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" class="cuadro-texto">
+                    <label for="fechanacimiento">Fecha de nacimiento</label>
+                    <input type="date" class="cuadro-texto">
+                    <label for="estadocivil">Estado Civil</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="nacionalidad">Nacionalidad</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="residencia">Residencia</label>
+                    <input type="text" class="cuadro-texto">
+                    <label for="escolaridad">Escolaridad</label>
+                    <input type="text" class="cuadro-texto">
+                    
+                    </br>
+                    <div class="d-flex" id="botones">
+                        <button type="submit" id="guardar">Guardar Informacion</button>
+                        <button type="button" id="documento">Registrar Documento</button>
+                    </div>
 
-            </div>
-        </form>
-    </legend>
+                </div>
+            </form>
+        </legend>
+    </div>
+
     <script src="../bootstrap-js/bootstrap.bundle.min.js"></script>
+    <script src="../js/empujar.js"></script>
 </body>
 
 </html>
