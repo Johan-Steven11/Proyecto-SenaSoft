@@ -1,10 +1,21 @@
 <?php
 
-define("NOMBRE_SERVIDOR", "localhost");
-define("NOMBRE_BD","med");
-define("USUARIO_BD", "root");
-define("CONTRASENA_BD","");
-define("PUERTO_BD","3306");
-define("CHARSET","utf8");
+class tratarDatos{
+
+    public function prepararSentencia($conexion,$sentencia){
+        return $conexion;
+    }
+
+    public function tipoDato($sentenciapreparada,$valor,$variable,$tipo){
+        return $sentenciapreparada->bindParam($valor,$variable,$tipo);
+    }
+
+    public function ejecutarSentencia($sentenciapreparada){
+        return $sentenciapreparada->execute();
+    }
+
+    
+    
+}
 
 ?>

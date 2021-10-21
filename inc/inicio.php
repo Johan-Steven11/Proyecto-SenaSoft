@@ -11,7 +11,7 @@
         <a class="nav-link active" aria-current="page" href="index.php">Nosotros</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Regsitro</a>
+        <a class="nav-link" href="">Regsitro</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="Login.php">Iniciar sesion</a>

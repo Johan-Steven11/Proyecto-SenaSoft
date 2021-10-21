@@ -16,5 +16,6 @@ include './inc/historiaRegistro.php';
 <body>
     <script src="./bootstrap-js/bootstrap.bundle.min.js"></script>
     <script src="./js/empujar.js"></script>
+    <script src="./js/peticiones.js"></script>
 </body>
 </html>
