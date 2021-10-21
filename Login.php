@@ -1,6 +1,6 @@
-<?php
+<!-- <?php
 include './inc/inicio.php';
-?>
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +13,8 @@ include './inc/inicio.php';
 </head>
 
 <body>
-    
+   
+
     <form class="form">
         <h2>Login</h2>
         <p type="Cedula:"><input placeholder="Ingrese su Cedula"></input></p>
