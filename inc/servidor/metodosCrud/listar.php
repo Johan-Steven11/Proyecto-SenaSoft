@@ -23,6 +23,8 @@ foreach($data->traerDatos() as $fila){
              <td>' . $fila["residencia"] . '</td>
              <td>' . $fila["escolaridad"] . '</td>
              <td>' . $fila["imagen_historia"] . '</td>
+             <td><a>editar</a></td>
+             <td><a>descargar</a></td>
         </tr>
     </table>';
 }
