@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -7,7 +7,7 @@ body {
     margin: 0
 }
 
-.justify-content-end{
+.justify-content-end {
     background-color: white;
 }
 
@@ -57,18 +57,17 @@ p:before {
     color: #5a5a5a
 }
 
-button {
+.Iniciar {
     border-radius: 10px;
     float: right;
     padding: 8px 12px;
     margin: 8px 0 0;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 10px #78788c;
+    border-radius: 10p;
     background: 0;
     color: #5a5a6e;
     cursor: pointer;
     transition: all .3s;
-   
 }
 
 button:hover {
@@ -94,6 +93,26 @@ span {
     margin: 0 5px 0 15px
 }
 
-footer  {
-    justify-items: end;
+nav .Regreso {
+    width: 100px;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin: 15px 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all .3s;
+    border: none
+}
+
+nav .Regreso:hover {
+    background: #78788c;
+    color: #fff;
+    box-shadow: 0 0 40px -10px #000;
+    transition: all .3s;
+}
+
+.form .select {
+    background: #e6e6e6;
 }
