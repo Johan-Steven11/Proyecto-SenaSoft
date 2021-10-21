@@ -58,15 +58,17 @@ p:before {
 }
 
 button {
+    border-radius: 10px;
     float: right;
     padding: 8px 12px;
     margin: 8px 0 0;
     font-family: 'Montserrat', sans-serif;
-    border: 2px solid #78788c;
+    border-radius: 10px #78788c;
     background: 0;
     color: #5a5a6e;
     cursor: pointer;
-    transition: all .3s
+    transition: all .3s;
+   
 }
 
 button:hover {
