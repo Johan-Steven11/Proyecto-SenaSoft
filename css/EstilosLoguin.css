@@ -1,6 +1,14 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     background: #59ABE3;
     margin: 0
+}
+
+.justify-content-end{
+    background-color: white;
 }
 
 .form {
@@ -13,7 +21,6 @@ body {
     padding: 20px 30px;
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
     position: relative
 }
 
