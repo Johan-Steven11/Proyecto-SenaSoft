@@ -8,7 +8,8 @@ class cadenas {
     private $contrasena="";
     private $puerto = "3306";
     private $charset ="utf8";
-
+    private $listarHistoria;
+    private $guardarHistoria;
     private $cadenaconexion;
     
     
@@ -27,6 +28,12 @@ class cadenas {
     public function contrasena(){
         return $this->contrasena;
     }
+
+    public function listarHistorias(){
+        return $this->listarHistoria="SELECT * FROM registrodatos";
+    }
+
+    
 
     
 

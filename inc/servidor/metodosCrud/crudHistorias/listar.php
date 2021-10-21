@@ -22,8 +22,15 @@ foreach($data->traerDatos() as $fila){
              <td>' . $fila["nacionalidad"] . '</td>
              <td>' . $fila["residencia"] . '</td>
              <td>' . $fila["escolaridad"] . '</td>
+<<<<<<< HEAD:inc/servidor/metodosCrud/listar.php
              <td>' . $fila["imagen_historia"] . '</td>
+             <td><a>editar</a></td>
+             <td><a>descargar</a></td>
+=======
+             <td><img src = "'.$fila["imagen_historia"].'"</td>
+>>>>>>> 4c7c7f32b89d0868ea99f633feaf414597ae0fc6:inc/servidor/metodosCrud/crudHistorias/listar.php
         </tr>
+        <br>
     </table>';
 }
 
