@@ -21,9 +21,9 @@
                 <h2 class="text-center tamano">Ingresa el paciente</h2>
                 <div class="container d-flex flex-column" id="cuadros-contenedor">
                     <label for="id"></label>
-                    <input type="hidden" id="id" name="id" class="cuadro-texto">
+                    <input type="hidden" id="id" name="id" class="cuadro-texto" value="0">
                     <label for="cedula">Cedula</label>
-                    <input type="text" id="cedula" name="id" class="cuadro-texto" id="cedula" name="cedula">
+                    <input type="text" id="cedula" name="cedula" class="cuadro-texto" id="cedula" >
                     <label for="primernombre">Primer Nombre</label>
                     <input type="text" name="primernombre" id="primernombre" class="cuadro-texto" value="">
                     <label for="segundonombre">Segundo Nombre</label>
@@ -59,6 +59,10 @@
                 </div>
             </form>
         </legend>
+    </div>
+
+    <div id="respuesta">
+        
     </div>
 
     <!-- <script src="../bootstrap-js/bootstrap.bundle.min.js"></script>
