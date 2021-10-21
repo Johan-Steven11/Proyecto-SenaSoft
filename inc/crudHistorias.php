@@ -1,9 +1,15 @@
 <?php
 
-include("./servidor/datos.php");
+include("/xampp/htdocs/Proyecto-SenaSoft/inc/servidor/conexion/datos.php");
 
-$db = new DAM();
+$data = new DAM;
 
-echo $db->conectar();
+// $db = $_REQUEST;
 
+// echo json_encode($db['segundonombre']);
 ?>
+
+
+
+
+

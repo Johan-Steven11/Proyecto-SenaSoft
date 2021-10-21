@@ -10,6 +10,7 @@ include './inc/inicio.php';
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MH-HISTORY</title>
+  
   <link rel="stylesheet" href="./bootstrap-CSS/bootstrap.min.css">
   <link rel="stylesheet" href="css/Index.css">
 </head>
@@ -21,7 +22,8 @@ include './inc/inicio.php';
   <main>
     <section>
       <div>
-        <img src="" alt="">
+        <img src="https://www.pexels.com/es-es/foto/doctor-sentado-frente-a-su-escritorio-2182979/" alt="">
+        
       </div>
     </section>
   </main>
