@@ -3,7 +3,7 @@
 class tratarDatos{
 
     public function prepararSentencia($conexion,$sentencia){
-        return $conexion;
+        return $conexion->prepare($sentencia);
     }
 
     public function tipoDato($sentenciapreparada,$valor,$variable,$tipo){
