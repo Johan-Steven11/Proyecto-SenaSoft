@@ -11,5 +11,9 @@ const empujar = () => {
 empujar();
 
 function cambio() {
+    window.location.href = "Registrarme.php";
+}
+
+function Volver() {
     window.location.href = "index.php";
 }
