@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>M-History</title>
+   <title>Med-History</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -66,10 +66,10 @@
                            <li class="nav-item">
                               <a class="nav-link" href="#contacto">Contacto</a>
                            </li>
-                           <a class="nav-link" href="#informacion">Ver Historia</a>
+                           <a class="nav-link" href="#">Ver Historia</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="#informacion">Descargar Historia</a>
+                              <a class="nav-link" href="#">Descargar Historia</a>
                            </li>
                         </ul>
                         <div class="sign_btn"><a href="Index.php">Cerrar sesion</a></div>
@@ -89,7 +89,7 @@
             <div class="col-md-12">
                <div class="text-bg">
                   <div class="padding_lert">
-                     <h1>Bienvenido a M-History</h1>
+                     <h1>Bienvenido a Med-History</h1>
                      <span>Ofreciendo nuestros servicios desde el 2019</span>
                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                      <a href="#informacion">Mas</a>
@@ -116,7 +116,7 @@
             <div class="col-md-6">
                <div class="choose_box">
                   <div class="titlepage">
-                     <h2><span class="text_norlam" id="informacion">Nuestra visión</span> <br>Accommodation</h2>
+                     <h2><span class="text_norlam" id="informacion">Nuestra visión</span></h2>
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
                   <a class="read_more" href="#">Ver mas</a>
@@ -157,7 +157,7 @@
             <div class="col-md-6">
                <div class="our_box">
                   <div class="titlepage">
-                     <h2><span class="text_norlam">Nuestros logros </span> <br>& Opjetivos</h2>
+                     <h2><span class="text_norlam">Nuestros logros </span> <br>& Objetivos</h2>
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
                   <a class="read_more" href="#">leer Mas</a>
@@ -179,7 +179,7 @@
                   </div>
                   <div class="cont">
                      <h3 id="contacto">Para mas informacion </h3>
-                     <p>Correo: M-HISTORY@GMAIL.COM.</p>
+                     <p>Correo: Med-History@GMAIL.COM.</p>
                      <p>Telefono: 343212313.</P>
                      <p>Facebbok: @MH.COM.</p>
                      <p>Instagram: @MH.COM.</p>

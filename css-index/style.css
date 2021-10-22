@@ -259,23 +259,22 @@ button {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-    padding: 0 25px;
-    color: #fff;
+    padding: 0 30px;
+    margin-left: 30px;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
+    align-items: center;
+    color: white;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+    width: 100px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
     color: #000;
-}
-
-.navigation.navbar-dark .navbar-nav .active>.nav-link,
-.navigation.navbar-dark .navbar-nav .nav-link.active,
-.navigation.navbar-dark .navbar-nav .nav-link.show,
-.navigation.navbar-dark .navbar-nav .show>.nav-link {
-    color: #bb4f42;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -306,14 +305,6 @@ button {
     background: transparent;
     padding: 20px 30px;
     position: absolute;
-}
-
-.logo a {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 40px;
 }
 
 
