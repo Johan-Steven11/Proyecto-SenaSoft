@@ -17,13 +17,13 @@
 <body>
     <div class="container" id="formulario-contenedor">
         <legend id="formulario-historia" class="">
-            <form action="" class="form-input" id="registro" method="post">
+            <form action="" class="form-input" id="registro" method="post" enctype="multipart/form-data">
                 <h2 class="text-center tamano">Ingresa el paciente</h2>
                 <div class="container d-flex flex-column" id="cuadros-contenedor">
                     <label for="id"></label>
                     <input type="hidden" id="id" name="id" class="cuadro-texto" value="0">
                     <label for="cedula">Cedula</label>
-                    <input type="text" id="cedula" name="cedula" class="cuadro-texto" id="cedula" >
+                    <input type="text" id="cedula" name="cedula" class="cuadro-texto" id="cedula">
                     <label for="primernombre">Primer Nombre</label>
                     <input type="text" name="primernombre" id="primernombre" class="cuadro-texto" value="">
                     <label for="segundonombre">Segundo Nombre</label>
@@ -61,6 +61,13 @@
         </legend>
     </div>
 
+<<<<<<< HEAD
+=======
+    <table class="table" id="respuesta">
+
+    </table>
+
+>>>>>>> 3d9e3fff206866e0e1ff28bd512cfc75cf4c2410
     <!-- <script src="../bootstrap-js/bootstrap.bundle.min.js"></script>
     <script src="../js/empujar.js"></script> -->
 </body>

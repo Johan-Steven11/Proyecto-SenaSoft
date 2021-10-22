@@ -79,7 +79,7 @@ class DAM
         // se llama el archivo que viene por ese metodo
         $this->img = $_FILES;
 
-        
+        if (isset($this->img['imagen'])) {
             //lo que se necesita de la imagen
             $temporal = $this->img['imagen']['tmp_name'];
             $imagen = $this->img['imagen']['name'];
@@ -87,7 +87,6 @@ class DAM
             //generamos la ruta de la imagen
             $ruta = "./imagenes/" . $imagen;
             //movemos temporalmente la imagen a nuestro repo, para luego pasarlo a la BD
-            $movido=move_uploaded_file($temporal, $ruta);
             
                 //declaramos la sentencia
             $this->cadena = "INSERT INTO registrodatos(id_Paciente,cedula,primer_nombre,segundo_nombre,primer_apellido,
@@ -135,19 +134,14 @@ class DAM
                 } else {
                     echo "Error al guardar el dato";
                 }
-                return true;
-            
+                
+           
 
             
         
     }
 
-    private function cargarImagenes()
-    {
-        // se llama el archivo que viene por ese metodo
-        $this->img = $_FILES;
-    }
-
+  
 
     public function traerDatos()
     {
