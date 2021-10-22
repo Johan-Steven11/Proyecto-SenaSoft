@@ -10,6 +10,6 @@ const empujar = () => {
 
 empujar();
 
-function cambio() {
-    window.location.href = "index.php";
-}
+// function cambio() {
+//     window.location.href = "index.php";
+// }
