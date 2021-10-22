@@ -22,7 +22,7 @@ foreach($data->traerDatos() as $fila){
              <td>' . $fila["nacionalidad"] . '</td>
              <td>' . $fila["residencia"] . '</td>
              <td>' . $fila["escolaridad"] . '</td>
-             <td><img src = "'.$fila["imagen_historia"].'"/></td>
+             <td><img width="60px" height="60px" src = "'.$fila["imagen_historia"].'"/></td>
         </tr>
         <br>
     </table>';

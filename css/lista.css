@@ -1,0 +1,19 @@
+#respuesta{
+    margin-top: 100px;
+    width: 70%;
+    transition: all ease .4s;
+}
+
+#respuesta.active{
+    margin-top: 364px;
+}
+
+#formulario-filtrar{
+    margin-top: 70px;
+    width: 70%;
+    transition: all ease .4s;
+}
+
+#formulario-filtrar.active{
+    margin-top: 264px;
+}

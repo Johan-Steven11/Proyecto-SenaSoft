@@ -10,6 +10,7 @@ class cadenas {
     private $charset ="utf8";
     private $listarHistoria;
     private $guardarHistoria;
+    private $filtrarHistoria;
     private $cadenaconexion;
     
     
@@ -32,6 +33,10 @@ class cadenas {
     public function listarHistorias(){
         return $this->listarHistoria="SELECT * FROM registrodatos";
     }
+
+    // public function filtrarFecha($fecha){
+    //     return $this->filtrarHistoria = "SELECT * FROM registrodatos WHERE fecha_nacimiento LIKE '".$fecha."%'";
+    // }
 
     
 

@@ -24,12 +24,17 @@ const listarElementos = ()=>{
     })
 }
 
-window.onload = ()=>{
-    listarElementos();
-}
+// const filtrarElementos = ()=>{
+//     const respuesta = document.getElementById("respuesta");
+    
+//     const fecha = document.getElementById("fecha").value;
+//     fetch("../../Proyecto-SenaSoft/inc/servidor/metodosCrud/crudHistorias/filtrar.php?fechanacimiento="+fecha,{
+//         method:"POST"
+//     })
+//     .then(res=>res.text())
+//     .then(data=>{
+//         respuesta.innerHTML = data;
+//     })
+// }
 
 
-formulario.addEventListener("submit",(e)=>{
-    e.preventDefault();
-    guardarElemento();
-})

@@ -61,10 +61,6 @@
         </legend>
     </div>
 
-    <div id="respuesta">
-        
-    </div>
-
     <!-- <script src="../bootstrap-js/bootstrap.bundle.min.js"></script>
     <script src="../js/empujar.js"></script> -->
 </body>
