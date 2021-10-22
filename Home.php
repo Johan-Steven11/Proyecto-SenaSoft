@@ -47,9 +47,7 @@
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                   <div class="full">
                      <div class="center-desk">
-                        <div class="logo">
-                           <a href="index.php"><img src="img/ImgI/logo.png" alt="#" /></a>
-                        </div>
+
                      </div>
                   </div>
                </div>
@@ -64,7 +62,14 @@
                               <a class="nav-link" href="#informacion">Nosotros</a>
                            </li>
                            <li class="nav-item">
+                              
+                           <li class="nav-item">
                               <a class="nav-link" href="#contacto">Contacto</a>
+                           </li>
+                           <a class="nav-link" href="#informacion">Ver Historia</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#informacion">Descargar Historia</a>
                            </li>
                         </ul>
                         <div class="sign_btn"><a href="Index.php">Cerrar sesion</a></div>
@@ -152,7 +157,7 @@
             <div class="col-md-6">
                <div class="our_box">
                   <div class="titlepage">
-                     <h2><span class="text_norlam" >Nuestros logros </span> <br>& Opjetivos</h2>
+                     <h2><span class="text_norlam">Nuestros logros </span> <br>& Opjetivos</h2>
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
                   <a class="read_more" href="#">leer Mas</a>
@@ -209,7 +214,7 @@
    <script src="java_index/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="java_index/custom.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-   
+
 </body>
 
 </html>

@@ -1,4 +1,4 @@
- <?php
+<?php
 include './inc/servidor/Controlador/Controlador.php'
 ?> 
 
@@ -9,20 +9,20 @@ include './inc/servidor/Controlador/Controlador.php'
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registrarme</title>
     <link rel="stylesheet" href="./css/EstilosLoguin.css">
 </head>
 
 <body>
     <nav>
-        <button class="Regreso" onclick="cambio()">
-            Registrarme
+        <button class="Regreso" onclick="Volver()">
+            Iniciar Sesion
         </button>
     </nav>
 
-    <form class="form" method="post" action="">
-        <h2>Login</h2>
-        <p type="Cedula: "><input placeholder="Ingrese su Cedula" name="cedula"></input>
+    <form class="form" method="post" action="" >
+        <h2>Registrarme</h2>
+        <p type="Cedula: "><input placeholder="Ingrese su Cedula (obligatorio)" name="cedula"></input>
         </p>
         <p type="Nombre: "><input placeholder="Ingrese su Nombre " name = "Nombre"></input>
         </p>
@@ -34,7 +34,7 @@ include './inc/servidor/Controlador/Controlador.php'
             <option value="Paciente" name = "Paciente">Paciente</option>
         </select>
         </p>
-        <button class="Iniciar" name="Iniciar" value="Iniciar" >Iniciar Sesion</button>
+        <button class="Iniciar" name="Registrar" value="Registrar" >Registrarme</button>
     </form>
     <script src="./js/empujar.js"></script>
 </body>

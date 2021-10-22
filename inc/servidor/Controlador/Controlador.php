@@ -11,15 +11,15 @@ if (!$conn) {
 }
 if (isset($_POST['Iniciar'])) {
 
-    $rol = $_POST['Seleccion'];
+    $rolD = $_POST['Seleccion'];
     $cedula = $_POST["cedula"];
     $nombre = $_POST["Nombre"];
     $contraseña = $_POST['Contraseña'];
-    if (empty(trim($nombre)) || empty(trim($cedula)) || $rol == "selecion") {
+    if (empty(trim($nombre)) || empty(trim($cedula)) || $rolD == "selecion" || empty(trim($contraseña))) {
         echo "<script> alert('Todos los campos deben ser diligenciados');</script>";
     }
-    if ($rol == "Doctor") {
-        $res = $conn->query("SELECT * FROM `doctores` WHERE `Codigo` = '$cedula' and `Nombre` = '$nombre' and `Contraseña` = '$contraseña' ");
+    if ($rolD == "Doctor") {
+        $res = $conn->query("SELECT * FROM `doctores` WHERE `Codigo` = '$cedula' and `Nombre` = '$nombre' and `Contraseña` = '$contraseña' and `Rol` = '$rolD' ");
         $nr = mysqli_num_rows($res);
 
         if ($nr == 1) {
@@ -28,9 +28,9 @@ if (isset($_POST['Iniciar'])) {
 
             echo "<script> alert('Usuario no existe');window.location= 'Index.php' </script>";
         }
-    } else if ($rol == "Paciente") {
-       
-        $res = $conn->query("SELECT * FROM `registrodatos` WHERE `cedula` = '$cedula' and `primer_nombre` = '$nombre'");
+    } else if ($rolD == "Paciente") {
+        $res = $conn->query("SELECT * FROM `doctores` WHERE `Codigo` = '$cedula' and `Nombre` = '$nombre' and `Contraseña` = '$contraseña'  and `Rol` = '$rolD' ");
+        // $res = $conn->query("SELECT * FROM `registrodatos` WHERE `cedula` = '$cedula' and `primer_nombre` = '$nombre'");
         $nr = mysqli_num_rows($res);
 
         if ($nr == 1) {
@@ -39,5 +39,24 @@ if (isset($_POST['Iniciar'])) {
 
             echo "<script> alert('Usuario no existe');window.location= 'Index.php' </script>";
         }
+    }
+}
+if (isset($_POST['Registrar'])){
+    $error = 0;
+    $rolD = $_POST['Seleccion'];
+    $cedula = $_POST["cedula"];
+    $nombre = $_POST["Nombre"];
+    $contraseña = $_POST['Contraseña'];
+    if (empty(trim($nombre))  || $rolD == "selecion" || empty(trim($contraseña)) || empty(trim($cedula))) {
+        echo "<script> alert('Todos los campos deben ser diligenciados');</script>";
+    }
+    if($error == "0"){
+        $res = $conn->query("INSERT INTO `doctores` VALUES('$cedula','$nombre','$contraseña','$rolD')");
+
+    }
+    if($res == 1){
+        echo "<script> alert('Se registro un nuevo usuario');</script>";
+    }else{
+        echo "<script> alert('No se pudo registrar intente mas tarde ');</script>";
     }
 }
