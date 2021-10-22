@@ -22,10 +22,9 @@
 
     <form class="form" method="post" action="">
         <h2>Login</h2>
-        <p type="Cedula: "><input placeholder="Ingrese su Cedula o Codigo interno" name="cedula"></input>
-        </p>
-        <p type="Nombre: "><input placeholder="Ingrese su Nombre " name = "Nombre"></input>
-        </p>
+        <input placeholder="Ingresa tu codigo credencial" id="id_doctor"  name="id_doctor"></input>
+        <p type="Usuario: "><input placeholder="Ingresa tu usuario" name="usuario"></input></p>
+        <p type="Contrasena: "><input placeholder="Ingresa tu contraseña " name = "contrasena"></input></p>
         <p type="Rol: "><select name="Seleccion" id="select" class="select">
             <option value="selecion">Seleccione su rol</option>
             <option value="Doctot">Doctor</option>
@@ -37,6 +36,7 @@
     <script src="./js/empujar.js"></script>
 </body>
 
+<script src="./js/eventosFormSesion.js"></script>
 
 <!-- <script src="/bootstrap-js/bootstrap.min.js "></script> -->
 

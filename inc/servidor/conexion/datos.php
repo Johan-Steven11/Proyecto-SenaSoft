@@ -54,8 +54,7 @@ class DAM
 
     private function guardarHistoria()
     {
-        //instancio clase que contiene mis sentencias de guardado
-        $sentencias = new cadenas();
+        
         //instancio mi clase que contiene los metodos PDO que mas uso
         $metodos = new tratarDatos();
         //traemos los datos insertados en el form
@@ -63,20 +62,11 @@ class DAM
 
         // se llama el archivo que viene por ese metodo
         $this->img = $_FILES;
+        //convertirla en bits
+        $imagenbit = addslashes(file_get_contents($this->img['imagen']['tmp_name']));
 
-        if (isset($this->img['imagen'])) {
-            //lo que se necesita de la imagen
-            $temporal = $this->img['imagen']['tmp_name'];
-            $imagen = $this->img['imagen']['name'];
-
-            //generamos la ruta de la imagen
-            $ruta = "/Proyecto-SenaSoft/inc/servidor/conexion/imagenes/" . $imagen;
-            //movemos temporalmente la imagen a nuestro repo, para luego pasarlo a la BD
-            if (move_uploaded_file($temporal, $ruta) == true) {
-                echo "Successfully uploaded";
-            }else{
-                echo"no hay imagen que mostrar";
-            }
+        if (isset($imagenbit)) {
+            
 
             //declaramos la sentencia
             $this->cadena = "INSERT INTO registrodatos(id_Paciente,cedula,primer_nombre,segundo_nombre,primer_apellido,
@@ -115,7 +105,7 @@ class DAM
             $metodos->tipoDato($preparado, ':nac', $nacionalidad, PDO::PARAM_STR);
             $metodos->tipoDato($preparado, ':res', $residencia, PDO::PARAM_STR);
             $metodos->tipoDato($preparado, ':esc', $escolaridad, PDO::PARAM_STR);
-            $metodos->tipoDato($preparado, ':urlImagen', $ruta, PDO::PARAM_STR_CHAR);
+            $metodos->tipoDato($preparado, ':urlImagen', $imagenbit, PDO::PARAM_STR_CHAR);
 
             $resultado = $metodos->ejecutarSentencia($preparado);
 
@@ -131,11 +121,7 @@ class DAM
         }
     }
 
-    private function cargarImagenes()
-    {
-        // se llama el archivo que viene por ese metodo
-        $this->img = $_FILES;
-    }
+    
 
 
     public function traerDatos()

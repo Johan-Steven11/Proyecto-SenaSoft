@@ -12,7 +12,7 @@ const guardarElemento = ()=>{
     .then(data=>{
         console.log(data);
     });
-    listarElementos();
+    
 }
 
 const listarElementos = ()=>{
@@ -32,4 +32,6 @@ window.onload = ()=>{
 formulario.addEventListener("submit",(e)=>{
     e.preventDefault();
     guardarElemento();
+    formulario.reset();
+    listarElementos();
 })
